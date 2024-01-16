@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+#top {
+  background-image: url(assets/three.png);
+  background-repeat: no-repeat;
+  background-position: 35% -5%;
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 55%;
+}
+
+#nav-bar {
+  background-color: #fff;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 20px;
+}
+.red-color {
+  background-color: purple;
+}
+.gray-color {
+  background-color: gray;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#content {
+  width: 100%;
+  height: 0%;
+  background: transparent;
+}
+#content-top {
+  margin-top: 60px;
+  width: 100%;
+  height: 10%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#content-top i {
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+}
+#content-top i:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  scale: 150%;
+}
+#logo img {
+  width: 50px;
+  height: 50px;
+}
+
+#content-center {
+  margin-top: 8%;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  justify-content: space-between;
+}
+#left h1 {
+  font-size: 90px;
+  font-family: "Teko", sans-serif;
+  color: purple;
+}
+#right {
+  padding-left: 80px;
+  display: flex;
+  gap: 100px;
+}
+#right p {
+  font-size: 10px;
+  width: 150px;
+}
+#icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#icons i:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  scale: 150%;
+}
+
+/* top bottom */
+#content-bottom {
+  margin-top: 2%;
+  /* background-color: red; */
+  display: flex;
+  gap: 8px;
+  padding: 0px 100px;
+}
+#content-bottom div {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+#bottom {
+  width: 100%;
+  height: 45%;
+  display: flex;
+}
+#one {
+  background-color: #fff;
+  width: 20%;
+  height: 100%;
+  padding: 50px;
+}
+#text {
+  height: 80%;
+}
+#text p {
+  padding-top: 30px;
+  font-size: 11px;
+  line-height: 15px;
+}
+#navigation i {
+  margin-left: 5px;
+  font-size: 20px;
+  transition: 0.1s;
+}
+#navigation i:hover {
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#two {
+  background-image: url(assets/photo-1.jpeg);
+  background-size: cover;
+  width: 14%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#two i {
+  font-size: 50px;
+  color: white;
+  transition: 0.3s;
+}
+#two i:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#three {
+  background-color: yellow;
+  width: 20%;
+  height: 100%;
+}
+#alerts-block {
+  width: 100%;
+  height: 40%;
+  font-size: 10px;
+  padding: 20px;
+  color: #fff;
+  background-color: purple;
+}
+#alerts-block p {
+  line-height: 13px;
+  letter-spacing: 1px;
+}
+#alerts-block h1 {
+  margin-bottom: 20px;
+}
+#image {
+  width: 100%;
+  height: 60%;
+  background-image: url(assets/icon-1.jpeg);
+  background-size: cover;
+  background-position: 10% 40%;
+}
+#four {
+  width: 20%;
+  height: 100%;
+  background-image: url(assets/photo-3.jpeg);
+  background-size: cover;
+}
+#five {
+  background-color: purple;
+  width: 26%;
+  height: 100%;
+  padding: 40px;
+  color: white;
+}
+
+#songs-list {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.play-button-1 {
+  width: 50px;
+  height: 50px;
+  background-image: url(assets/music-icon-1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.play-button-2 {
+  width: 50px;
+  height: 50px;
+  background-image: url(assets/music-icon-2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.play-button-3 {
+  width: 50px;
+  height: 50px;
+  background-image: url(assets/music-icon-3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
